@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>강리온 | Leon Kang — Fictional Polymath Artist Portfolio</title>
+  <meta name="description" content="가상의 다방면 천재 예술가 강리온(Leon Kang)의 포트폴리오 홈페이지. 회화, 사운드, 렌즈, 소설, 조형, 발명을 가로지르는 실험실형 아틀리에.">
+  <meta name="theme-color" content="#0d0a08">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <div class="progress-bar" aria-hidden="true"></div>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero" aria-label="강리온 포트폴리오 첫 화면으로 이동">
+        <span class="brand-mark">LK</span>
+        <span class="brand-text">
+          <strong>강리온</strong>
+          <small>Leon Kang / fictional polymath artist</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="주요 섹션">
+        <a href="#profile">인물</a>
+        <a href="#spectrum">분야</a>
+        <a href="#works">대표작</a>
+        <a href="#process">프로세스</a>
+        <a href="#lab">발명실</a>
+        <a href="#timeline">연대기</a>
+        <a href="#publications">출판</a>
+        <a href="#contact">문의</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">2026 FICTIONAL CHARACTER · PORTFOLIO ATLAS</p>
+          <h1>
+            강리온은<br>
+            <em>장르 대신 질감</em>으로<br>
+            작업한다.
+          </h1>
+          <p class="lead">
+            회화, 사운드, 렌즈, 소설, 조형, 발명을 하나의 문장처럼 다루는
+            가상의 다방면 천재 예술가. 캔버스 끝에서 카메라가 시작되고,
+            악보 끝에서 기계가 태어난다.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#works">대표작 보기</a>
+            <a class="button button-secondary" href="#manifesto">세계관 읽기</a>
+          </div>
+
+          <ul class="hero-metrics" aria-label="강리온 포트폴리오 핵심 수치">
+            <li>
+              <strong data-count="6">0</strong>
+              <span>동시 운용 매체</span>
+            </li>
+            <li>
+              <strong data-count="27">0</strong>
+              <span>가상 전시/발표</span>
+            </li>
+            <li>
+              <strong data-count="14">0</strong>
+              <span>프로토타입 오브제</span>
+            </li>
+            <li>
+              <strong data-count="2">0</strong>
+              <span>출간된 장편</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal glow-surface">
+          <div class="hero-portrait-frame section-card">
+            <img src="assets/img/hero-portrait.webp" alt="베레모와 안경, 카메라와 붓을 함께 멘 가상의 예술가 강리온의 초상화">
+            <span class="floating-tag">Neo-Renaissance Atelier</span>
+            <span class="floating-note">Painter · Musician · Writer · Inventor</span>
+          </div>
+
+          <aside class="detail-card section-card">
+            <img src="assets/img/canvas-detail.webp" alt="캔버스 위에 붓을 얹고 있는 손 디테일">
+            <div>
+              <p class="detail-label">origin fragment</p>
+              <h2>모든 작업은 회화의 손끝에서 시작된다.</h2>
+              <p>손, 빛, 구조. 리온의 포트폴리오는 그 세 가지가 서로 번역되는 과정의 기록이다.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="manifesto" class="manifesto section">
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>작품은 장르가 아니라 질감이다.</span>
+          <span>기계에도 서정이 있다.</span>
+          <span>사진은 회화가 남긴 잔광이다.</span>
+          <span>음악은 설계도의 그림자다.</span>
+          <span>소설은 발명의 감정선이다.</span>
+          <span>작품은 장르가 아니라 질감이다.</span>
+          <span>기계에도 서정이 있다.</span>
+          <span>사진은 회화가 남긴 잔광이다.</span>
+          <span>음악은 설계도의 그림자다.</span>
+          <span>소설은 발명의 감정선이다.</span>
+        </div>
+      </div>
+
+      <div class="container manifesto-grid">
+        <article class="section-card manifesto-card reveal">
+          <p class="eyebrow">manifesto / 01</p>
+          <h2>하나의 장르에 안주하지 않는 대신,<br>하나의 정서를 끝까지 밀어붙인다.</h2>
+          <p>
+            강리온의 작품은 회화에서 시작해 사운드로 번지고,
+            렌즈를 거쳐 금속과 종이로 응결된다. 매체가 바뀌어도
+            질문은 하나다. “빛은 어떻게 구조가 되는가?”
+          </p>
+        </article>
+
+        <article class="section-card manifesto-quote reveal">
+          <p>“나는 이미지를 그리지 않는다.<br>이미지가 되기 직전의 긴장을 설계한다.”</p>
+          <span>— Leon Kang, Atelier Notes</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="profile" class="profile section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">section 01</p>
+          <h2>인물 설정</h2>
+          <p>강리온은 예술가이자 발명가, 작곡가이자 소설가인 “세계관 단위 캐릭터”로 기획되었다.</p>
+        </div>
+
+        <div class="profile-grid">
+          <div class="profile-copy reveal">
+            <p class="lede-block">
+              서울과 부산, 그리고 특정되지 않은 미래 도시를 오가며 활동하는 것으로 설정된 인물.
+              그의 아틀리에는 캔버스, 타자기, 낡은 카메라, 황동 장치, 필드 레코더가 한 공간에 뒤엉킨 실험실에 가깝다.
+            </p>
+
+            <dl class="bio-grid">
+              <div>
+                <dt>핵심 정체성</dt>
+                <dd>회화 기반의 멀티미디어 작가 / 감각 설계자 / 조형 발명가</dd>
+              </div>
+              <div>
+                <dt>세계관 키워드</dt>
+                <dd>네오 르네상스, 황동 공방, 아날로그 잔광, 도시의 서정</dd>
+              </div>
+              <div>
+                <dt>작업 원리</dt>
+                <dd>스케치 → 음향 지도 → 촬영 → 물성 실험 → 프로토타입 → 텍스트</dd>
+              </div>
+              <div>
+                <dt>주요 소재</dt>
+                <dd>빛, 소음, 메모, 금속, 종이, 필름 질감, 기계의 표정</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="profile-panel section-card reveal glow-surface">
+            <img src="assets/img/process-writing.webp" alt="작업실 책상에서 드로잉과 메모를 진행하는 강리온">
+            <div class="panel-overlay">
+              <p class="eyebrow">character notes</p>
+              <h3>정교한 공학보다<br>감정의 구조를 먼저 설계하는 사람.</h3>
+              <p>리온은 “기술은 감정을 오래 보존하기 위한 그릇”이라고 믿는다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="origin-timeline">
+          <article class="section-card reveal">
+            <span>2016</span>
+            <h3>첫 번째 공방</h3>
+            <p>폐카메라와 유화용 붓, 필드 레코더를 한 테이블에 올려놓고 첫 실험을 시작했다.</p>
+          </article>
+          <article class="section-card reveal">
+            <span>2019</span>
+            <h3>사운드 조형 연작</h3>
+            <p>도시의 소음 패턴을 금속 형태로 번역하는 오브제 시리즈를 발표했다는 설정.</p>
+          </article>
+          <article class="section-card reveal">
+            <span>2023</span>
+            <h3>광학 장치 연대기</h3>
+            <p>사진, 조형, 소설을 하나의 내러티브로 엮는 개인 프로젝트의 축이 완성된다.</p>
+          </article>
+          <article class="section-card reveal">
+            <span>2026</span>
+            <h3>포트폴리오 아틀라스</h3>
+            <p>이번 페이지는 그 세계관을 하나의 정적 웹 포트폴리오로 압축한 결과물이다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="spectrum" class="spectrum section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">section 02</p>
+          <h2>작업 스펙트럼</h2>
+          <p>각 분야는 독립적으로 보이지만, 실제로는 하나의 감정 지도를 서로 다른 재료로 번역한 결과다.</p>
+        </div>
+
+        <div class="spectrum-grid">
+          <article class="section-card spectrum-card reveal">
+            <span class="spectrum-index">01</span>
+            <h3>Painting</h3>
+            <p>빛의 확산과 잔향을 물감의 질감으로 기록한다.</p>
+          </article>
+          <article class="section-card spectrum-card reveal">
+            <span class="spectrum-index">02</span>
+            <h3>Sound / Music</h3>
+            <p>필드 레코딩과 기타 루프를 조합해 회화의 색채를 청각으로 환원한다.</p>
+          </article>
+          <article class="section-card spectrum-card reveal">
+            <span class="spectrum-index">03</span>
+            <h3>Lens / Photo</h3>
+            <p>흐릿한 도시, 오래된 렌즈, 유리 반사로 “남은 빛”을 채집한다.</p>
+          </article>
+          <article class="section-card spectrum-card reveal">
+            <span class="spectrum-index">04</span>
+            <h3>Object / Sculpture</h3>
+            <p>기계의 표정과 악기의 구조를 결합한 황동 장치를 설계한다.</p>
+          </article>
+          <article class="section-card spectrum-card reveal">
+            <span class="spectrum-index">05</span>
+            <h3>Film / Process</h3>
+            <p>과정 자체를 하나의 공연처럼 연출하고, 장면의 리듬을 기록한다.</p>
+          </article>
+          <article class="section-card spectrum-card reveal">
+            <span class="spectrum-index">06</span>
+            <h3>Writing</h3>
+            <p>발명의 배경 서사와 작품의 정서를 시, 산문, 장편의 형태로 확장한다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="works section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">section 03</p>
+          <h2>대표작 아카이브</h2>
+          <p>필터 버튼을 눌러 매체별 대표작을 살펴보고, 각 카드에서 상세 캡션을 열 수 있다.</p>
+        </div>
+
+        <div class="filter-bar reveal" role="toolbar" aria-label="대표작 필터">
+          <button class="filter-button is-active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="painting">Painting</button>
+          <button class="filter-button" type="button" data-filter="sound">Sound</button>
+          <button class="filter-button" type="button" data-filter="lens">Lens</button>
+          <button class="filter-button" type="button" data-filter="object">Object</button>
+          <button class="filter-button" type="button" data-filter="text">Text</button>
+          <button class="filter-button" type="button" data-filter="film">Film</button>
+        </div>
+
+        <div class="works-grid">
+          <article class="work-card section-card glow-surface reveal large" tabindex="0"
+            data-category="painting"
+            data-title="Aurora Flood"
+            data-year="2025"
+            data-discipline="Painting"
+            data-image="assets/img/work-dreamscape.webp"
+            data-description="오렌지빛 폭풍과 푸른 수면이 충돌하는 대형 캔버스 연작. 리온이 ‘빛의 압력’을 처음 시각화한 회화로 설정된다.">
+            <img src="assets/img/work-dreamscape.webp" alt="폭풍과 빛의 수면을 그린 회화 이미지">
+            <div class="work-copy">
+              <span class="chip">Painting</span>
+              <h3>Aurora Flood</h3>
+              <p>폭풍, 수면, 발광하는 잔향의 회화.</p>
+            </div>
+          </article>
+
+          <article class="work-card section-card glow-surface reveal" tabindex="0"
+            data-category="painting"
+            data-title="Nocturne Grid"
+            data-year="2024"
+            data-discipline="Painting"
+            data-image="assets/img/work-abstract.webp"
+            data-description="도시의 불빛을 블록 구조로 분해한 추상 회화. 건축 도면과 야경 사이를 오가는 표면이 특징이다.">
+            <img src="assets/img/work-abstract.webp" alt="기하학적인 도시 추상 회화">
+            <div class="work-copy">
+              <span class="chip">Painting</span>
+              <h3>Nocturne Grid</h3>
+              <p>도시를 색면과 리듬으로 분해한 추상.</p>
+            </div>
+          </article>
+
+          <article class="work-card section-card glow-surface reveal" tabindex="0"
+            data-category="sound"
+            data-title="Handwired Lullaby"
+            data-year="2026"
+            data-discipline="Sound / Music"
+            data-image="assets/img/thumb-music.webp"
+            data-description="어쿠스틱 기타와 현장 녹음으로 구성된 소형 앨범. 조형 연작의 제작 소음을 리듬 파트로 샘플링했다는 설정이다.">
+            <img src="assets/img/thumb-music.webp" alt="기타를 연주하는 강리온의 이미지">
+            <div class="work-copy">
+              <span class="chip">Sound</span>
+              <h3>Handwired Lullaby</h3>
+              <p>공방의 소음을 서정적인 루프로 엮은 앨범.</p>
+            </div>
+          </article>
+
+          <article class="work-card section-card glow-surface reveal" tabindex="0"
+            data-category="lens"
+            data-title="Empire Mist"
+            data-year="2023"
+            data-discipline="Lens / Photo"
+            data-image="assets/img/thumb-photography.webp"
+            data-description="먼 도시의 스카이라인을 오래된 필름 카메라 감성으로 포착한 사진 시리즈. 흐림 자체가 주인공이 되는 프레임.">
+            <img src="assets/img/thumb-photography.webp" alt="도시 스카이라인 사진 이미지">
+            <div class="work-copy">
+              <span class="chip">Lens</span>
+              <h3>Empire Mist</h3>
+              <p>도시의 윤곽보다 공기를 찍는 사진.</p>
+            </div>
+          </article>
+
+          <article class="work-card section-card glow-surface reveal" tabindex="0"
+            data-category="object"
+            data-title="Brass Witness"
+            data-year="2024"
+            data-discipline="Object / Sculpture"
+            data-image="assets/img/thumb-sculpture.webp"
+            data-description="황동과 렌즈 파츠로 조립된 목격자형 오브제. 기계가 기억을 어떻게 저장하는지 묻는 조형 연작의 일부다.">
+            <img src="assets/img/thumb-sculpture.webp" alt="황동과 렌즈로 구성된 로봇형 조형물">
+            <div class="work-copy">
+              <span class="chip">Object</span>
+              <h3>Brass Witness</h3>
+              <p>기계의 얼굴을 가진 기억 저장 장치.</p>
+            </div>
+          </article>
+
+          <article class="work-card section-card glow-surface reveal" tabindex="0"
+            data-category="text"
+            data-title="Paper Frequency"
+            data-year="2025"
+            data-discipline="Writing"
+            data-image="assets/img/thumb-literature.webp"
+            data-description="타자기, 필름 메모, 짧은 시퀀스를 엮은 산문집. 리온의 작업 노트가 장르를 벗어나 문학으로 확장되는 지점이다.">
+            <img src="assets/img/thumb-literature.webp" alt="타자기와 원고의 이미지">
+            <div class="work-copy">
+              <span class="chip">Text</span>
+              <h3>Paper Frequency</h3>
+              <p>메모와 기계음으로 쓴 산문집.</p>
+            </div>
+          </article>
+
+          <article class="work-card section-card glow-surface reveal" tabindex="0"
+            data-category="lens"
+            data-title="Harbor of Elsewhere"
+            data-year="2022"
+            data-discipline="Lens / Travel"
+            data-image="assets/img/work-travel.webp"
+            data-description="정박한 배와 산맥, 차가운 수면을 담은 여행 사진. 정지된 풍경의 리듬을 채집하는 렌즈 실험의 대표 이미지.">
+            <img src="assets/img/work-travel.webp" alt="호수와 산맥, 정박한 배가 보이는 여행 사진">
+            <div class="work-copy">
+              <span class="chip">Lens</span>
+              <h3>Harbor of Elsewhere</h3>
+              <p>움직이지 않는 풍경의 박자를 수집한 기록.</p>
+            </div>
+          </article>
+
+          <article class="work-card section-card glow-surface reveal" tabindex="0"
+            data-category="film"
+            data-title="Ember City"
+            data-year="2024"
+            data-discipline="Film / Urban Chronicle"
+            data-image="assets/img/work-urban.webp"
+            data-description="도시의 불빛과 안개를 느린 패닝으로 이어 붙인 비디오 에세이. 야경을 ‘연기하는 구조물’로 보는 시선이 담겨 있다.">
+            <img src="assets/img/work-urban.webp" alt="도시 야경을 흐릿하게 담은 이미지">
+            <div class="work-copy">
+              <span class="chip">Film</span>
+              <h3>Ember City</h3>
+              <p>도시의 열기를 잔상처럼 남기는 영상 산문.</p>
+            </div>
+          </article>
+
+          <article class="work-card section-card glow-surface reveal" tabindex="0"
+            data-category="film"
+            data-title="Score for Hollow Machines"
+            data-year="2026"
+            data-discipline="Film / Process"
+            data-image="assets/img/film-short.webp"
+            data-description="짧은 드로잉 장면과 금속 공정의 손동작을 교차 편집한 미니 필름. 제작 과정을 하나의 악보처럼 편집했다.">
+            <img src="assets/img/film-short.webp" alt="작업 노트를 쓰고 있는 손과 노트의 이미지">
+            <div class="work-copy">
+              <span class="chip">Film</span>
+              <h3>Score for Hollow Machines</h3>
+              <p>과정을 하나의 공연으로 편집한 짧은 필름.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="process section">
+      <div class="container process-grid">
+        <div class="section-heading reveal process-heading">
+          <p class="eyebrow">section 04</p>
+          <h2>작업 프로세스</h2>
+          <p>강리온은 완성작보다 “매체가 서로 번역되는 순간”을 가장 중요하게 다룬다.</p>
+        </div>
+
+        <article class="process-card section-card reveal">
+          <img src="assets/img/process-painting.webp" alt="캔버스 앞에서 작업 중인 강리온의 스튜디오 장면">
+          <div class="process-copy">
+            <p class="eyebrow">phase 01</p>
+            <h3>스케치와 붓질로 정서를 포획한다.</h3>
+            <p>형태보다 리듬, 정확도보다 압력. 회화는 리온에게 언제나 가장 먼저 감정을 붙잡는 도구다.</p>
+          </div>
+        </article>
+
+        <article class="process-card section-card reveal">
+          <img src="assets/img/process-writing.webp" alt="책상에서 그림과 메모를 작성하는 작업 장면">
+          <div class="process-copy">
+            <p class="eyebrow">phase 02</p>
+            <h3>메모와 설계로 구조를 세운다.</h3>
+            <p>짧은 문장, 회로도, 악보 파편이 한 장 위에서 섞이기 시작하면 작품의 방향이 정해진다.</p>
+          </div>
+        </article>
+
+        <article class="section-card process-notes reveal">
+          <p class="eyebrow">studio recipe</p>
+          <ol>
+            <li><strong>Capture.</strong> 빛, 소음, 메모 조각을 현장에서 수집한다.</li>
+            <li><strong>Translate.</strong> 회화·사운드·촬영·조형 중 하나로 1차 번역한다.</li>
+            <li><strong>Crosswire.</strong> 다른 매체로 다시 옮겨가며 결과물의 긴장을 높인다.</li>
+            <li><strong>Archive.</strong> 마지막엔 짧은 문장이나 도해로 프로젝트를 문학화한다.</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section id="lab" class="lab section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">section 05</p>
+          <h2>발명실 / Invention Lab</h2>
+          <p>예술 작품과 장치 사이의 경계가 가장 흐려지는 구간. 리온의 조형 발명은 언제나 기능보다 분위기를 먼저 설계한다.</p>
+        </div>
+
+        <div class="lab-grid">
+          <article class="section-card lab-card reveal glow-surface">
+            <img src="assets/img/invention-steampunk.webp" alt="황동과 렌즈가 복잡하게 결합된 소형 장치">
+            <div>
+              <p class="eyebrow">prototype 01</p>
+              <h3>Chronoscope No.2</h3>
+              <p>도시의 빛 변화를 색채 진동으로 바꿔 보여주는 휴대형 광학 장치.</p>
+              <ul class="spec-list">
+                <li>optical memory</li>
+                <li>field resonance</li>
+                <li>brass chassis</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="section-card lab-card reveal glow-surface">
+            <img src="assets/img/invention-future.webp" alt="둥근 형태의 미래적 오브제">
+            <div>
+              <p class="eyebrow">prototype 02</p>
+              <h3>Orbital Resonator</h3>
+              <p>공방의 기계음을 저주파 드론 사운드로 변조하는 구형 사운드 오브제.</p>
+              <ul class="spec-list">
+                <li>ambient engine</li>
+                <li>echo shell</li>
+                <li>signal breathing</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="section-card lab-card reveal glow-surface">
+            <img src="assets/img/invention-portal.webp" alt="창문 같은 형태의 기계 장치">
+            <div>
+              <p class="eyebrow">prototype 03</p>
+              <h3>Tide Gate</h3>
+              <p>빛과 그림자의 주기를 퍼포먼스 세트처럼 연출하는 이동형 프레임 머신.</p>
+              <ul class="spec-list">
+                <li>portable frame</li>
+                <li>stage optics</li>
+                <li>motion memory</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline" class="timeline section">
+      <div class="container timeline-grid">
+        <div class="timeline-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">section 06</p>
+            <h2>전시와 수상 연대기</h2>
+            <p>가상의 이력 역시 ‘이 인물이 실제로 살았을 것 같은 밀도’를 만들기 위해 구체적으로 설계했다.</p>
+          </div>
+
+          <div class="timeline-list">
+            <article class="timeline-item section-card reveal">
+              <span class="year">2021</span>
+              <div>
+                <h3>Silent Brass, group show</h3>
+                <p>조형 장치 5점을 소개하며 “기계의 표정”이라는 키워드를 처음 제시한다.</p>
+              </div>
+            </article>
+            <article class="timeline-item section-card reveal">
+              <span class="year">2023</span>
+              <div>
+                <h3>City Residue, solo photo essay</h3>
+                <p>도시 야경 사진과 산문을 결합한 개인 아카이브를 발표한다.</p>
+              </div>
+            </article>
+            <article class="timeline-item section-card reveal">
+              <span class="year">2025</span>
+              <div>
+                <h3>Machines That Remember, installation</h3>
+                <p>조형, 사운드, 회화, 퍼포먼스를 하나의 동선으로 구성한 실험 전시.</p>
+              </div>
+            </article>
+            <article class="timeline-item section-card reveal">
+              <span class="year">2026</span>
+              <div>
+                <h3>Atlas Award for Fictional Arts</h3>
+                <p>장르 융합과 내러티브 설계 부문을 수상했다는 설정으로 캐릭터의 밀도를 완성한다.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="timeline-gallery">
+          <article class="section-card award-card reveal">
+            <img src="assets/img/event-gallery.webp" alt="전시 오프닝 장면">
+            <div>
+              <p class="eyebrow">gallery</p>
+              <h3>Gallery Opening</h3>
+              <p>오브제와 회화, 사진을 한 동선 위에 배치하는 전시 문법.</p>
+            </div>
+          </article>
+
+          <article class="section-card award-card reveal">
+            <img src="assets/img/event-performance.webp" alt="기타 퍼포먼스 장면">
+            <div>
+              <p class="eyebrow">performance</p>
+              <h3>Live Score Session</h3>
+              <p>사운드 작업을 갤러리 퍼포먼스로 확장하는 라이브 세션.</p>
+            </div>
+          </article>
+
+          <article class="section-card award-card reveal">
+            <img src="assets/img/event-award.webp" alt="트로피를 들고 있는 수상 장면">
+            <div>
+              <p class="eyebrow">award</p>
+              <h3>Recognition Moment</h3>
+              <p>이 인물이 단순 설정을 넘어 실재감 있는 포트폴리오 주체처럼 보이게 하는 장면.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="publications section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">section 07</p>
+          <h2>출판 · 텍스트 · 사운드 노트</h2>
+          <p>리온의 마지막 매체는 늘 문장이다. 이미지와 장치를 만든 뒤, 그는 그것을 다시 텍스트로 봉인한다.</p>
+        </div>
+
+        <div class="publications-grid">
+          <article class="section-card writing-wall reveal">
+            <img src="assets/img/writing-typewriter.webp" alt="타자기와 책이 놓인 책상 장면">
+            <div class="writing-overlay">
+              <p class="eyebrow">atelier excerpt</p>
+              <blockquote>
+                “금속은 차갑지 않다. 다만 오래 기억하기 때문에 인간보다 덜 서두를 뿐이다.”
+              </blockquote>
+            </div>
+          </article>
+
+          <article class="section-card book-card reveal glow-surface">
+            <img src="assets/img/book-dreamscape.webp" alt="The Dreamscape 표지 이미지">
+            <div>
+              <p class="eyebrow">novel 01</p>
+              <h3>The Dreamscape</h3>
+              <p>빛을 수집하는 도시에 관한 장편. 사진 연작의 정서를 서사로 확장한 소설.</p>
+            </div>
+          </article>
+
+          <article class="section-card book-card reveal glow-surface">
+            <img src="assets/img/book-mechanical.webp" alt="Mechanical Tales 표지 이미지">
+            <div>
+              <p class="eyebrow">novel 02</p>
+              <h3>Mechanical Tales</h3>
+              <p>기억을 저장하는 장치와 그것을 돌보는 사람들의 짧은 연작 소설집.</p>
+            </div>
+          </article>
+
+          <article class="section-card publication-notes reveal">
+            <p class="eyebrow">selected outputs</p>
+            <ul>
+              <li><strong>Field Notes 01</strong> — 공방의 소음 지도, 48p</li>
+              <li><strong>Paper Frequency</strong> — 산문/메모집, limited edition</li>
+              <li><strong>Handwired Lullaby</strong> — 6-track EP, studio archive</li>
+              <li><strong>Score for Hollow Machines</strong> — short process film</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">section 08</p>
+          <h2>협업 문의</h2>
+          <p>
+            이 페이지는 가상 캐릭터의 포트폴리오 데모이지만,
+            아래 폼은 정적 사이트 환경에서도 동작하도록
+            문의 내용을 클립보드에 복사하는 방식으로 구성했다.
+          </p>
+
+          <div class="contact-cards">
+            <article class="section-card">
+              <h3>가능한 협업</h3>
+              <p>전시 비주얼, 세계관형 아티스트 브랜딩, 가상 인물 IP, 인터랙티브 포트폴리오</p>
+            </article>
+            <article class="section-card">
+              <h3>응답 모드</h3>
+              <p>정적 데모 / 클립보드 복사 / 로컬 실행 가능 / 커스텀 수정 용이</p>
+            </article>
+          </div>
+        </div>
+
+        <form class="section-card contact-form reveal" id="contactForm">
+          <label>
+            이름
+            <input type="text" name="name" placeholder="홍길동">
+          </label>
+          <label>
+            이메일
+            <input type="email" name="email" placeholder="name@example.com">
+          </label>
+          <label>
+            프로젝트 유형
+            <select name="project">
+              <option value="브랜딩 포트폴리오">브랜딩 포트폴리오</option>
+              <option value="가상 캐릭터 기획">가상 캐릭터 기획</option>
+              <option value="전시/아카이브 웹사이트">전시/아카이브 웹사이트</option>
+              <option value="기타">기타</option>
+            </select>
+          </label>
+          <label>
+            메시지
+            <textarea name="message" rows="5" placeholder="원하는 콘셉트와 사용 목적을 적어주세요."></textarea>
+          </label>
+          <button class="button button-primary" type="submit">문의 템플릿 복사</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Leon Kang — fictional character portfolio demo.</p>
+      <p>Images were assembled from AI-generated concept boards and cropped into local static assets.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="workModal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" aria-label="닫기" data-close-modal>×</button>
+      <div class="modal-media">
+        <img id="modalImage" src="" alt="">
+      </div>
+      <div class="modal-copy">
+        <p class="eyebrow" id="modalDiscipline"></p>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-year" id="modalYear"></p>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
